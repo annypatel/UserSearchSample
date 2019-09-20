@@ -1,0 +1,16 @@
+!tape
+name: search when successful should display result
+interactions:
+- recorded: 2019-05-04T06:53:36.162Z
+  request:
+    method: GET
+    uri: https://search-users.example.com/search?query=b
+  response:
+    status: 200
+    headers:
+      Connection: keep-alive
+      Content-Length: '116'
+      Content-Type: application/json
+      Date: Sat, 04 May 2019 06:53:24 GMT
+      Server: gunicorn/19.9.0
+    body: '{"ok":true,"users":[{"avatar_url":"https://examp.le/1.jpg","display_name":"Bruce Wayne","id":1,"username":"bruce"}]}'

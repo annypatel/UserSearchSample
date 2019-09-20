@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base style for toolbar -->
+    <style name="Base.Widget.Toolbar" parent="Widget.MaterialComponents.Toolbar" />
+
+    <!-- Style for toolbar -->
+    <style name="Widget.Toolbar" parent="Base.Widget.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!-- Style for SearchView -->
+    <style name="Widget.SearchView" parent="Widget.AppCompat.SearchView.ActionBar">
+        <!-- Hardcoded maxWidth to some max value so that SearchView fills the entire toolbar -->
+        <item name="android:maxWidth">1000dp</item>
+        <item name="closeIcon">@drawable/ic_search_close</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="queryBackground">@drawable/search_query_background</item>
+    </style>
+
+    <!-- Styles for search list item -->
+    <style name="Base.Widget.SearchItem.DisplayName" parent="" />
+
+    <style name="Widget.SearchItem.DisplayName" parent="Base.Widget.SearchItem.DisplayName">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/search_item_display_name_color</item>
+        <item name="android:textSize">@dimen/search_item_text_size</item>
+    </style>
+
+    <style name="Base.Widget.SearchItem.UserName" parent="" />
+
+    <style name="Widget.SearchItem.UserName" parent="Base.Widget.SearchItem.UserName">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/search_item_username_color</item>
+        <item name="android:textSize">@dimen/search_item_text_size</item>
+    </style>
+
+    <!-- Style for offline banner -->
+    <style name="Widget.OfflineBanner" parent="">
+        <item name="android:background">@color/offline_banner_background</item>
+        <item name="android:drawableStart">@drawable/ic_offline</item>
+        <item name="android:drawablePadding">@dimen/offline_banner_drawable_padding</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/offline_banner_text_color</item>
+        <item name="android:textSize">@dimen/offline_banner_text_size</item>
+        <item name="android:paddingStart">@dimen/offline_banner_lr_padding</item>
+        <item name="android:paddingTop">@dimen/offline_banner_tb_padding</item>
+        <item name="android:paddingEnd">@dimen/offline_banner_lr_padding</item>
+        <item name="android:paddingBottom">@dimen/offline_banner_tb_padding</item>
+    </style>
+</resources>

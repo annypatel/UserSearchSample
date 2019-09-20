@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme for API level 21 and above -->
+    <style name="Theme.Base" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:navigationBarColor">@color/primary_dark_color</item>
+    </style>
+
+</resources>

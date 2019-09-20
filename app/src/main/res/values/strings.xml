@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Search Users</string>
+    <string name="search_users_hint">Search Users</string>
+    <string name="search_failure_message">Something went wrong, try again.</string>
+    <string name="offline_banner_text">You are currently offline</string>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_elevation">8dp</dimen>
+
+    <!-- search dimens -->
+    <dimen name="search_query_tb_margin">2dp</dimen>
+    <dimen name="search_query_corner_radius">4dp</dimen>
+    <dimen name="search_item_margin">16dp</dimen>
+    <dimen name="search_item_divider_height">0.5dp</dimen>
+    <dimen name="search_item_avatar_width">42dp</dimen>
+    <dimen name="search_item_avatar_height">42dp</dimen>
+    <dimen name="search_item_avatar_radius">4dp</dimen>
+    <dimen name="search_item_text_size">16sp</dimen>
+    <dimen name="search_item_line_height">28dp</dimen>
+    <dimen name="search_item_avatar_right_margin">12dp</dimen>
+    <dimen name="offline_banner_text_size">12sp</dimen>
+    <dimen name="offline_banner_drawable_padding">18dp</dimen>
+    <dimen name="offline_banner_lr_padding">22dp</dimen>
+    <dimen name="offline_banner_tb_padding">8dp</dimen>
+</resources>

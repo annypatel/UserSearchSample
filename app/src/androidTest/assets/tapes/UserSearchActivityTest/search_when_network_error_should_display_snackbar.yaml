@@ -1,0 +1,16 @@
+!tape
+name: search when network error should display snackbar
+interactions:
+- recorded: 2019-05-04T04:17:57.665Z
+  request:
+    method: GET
+    uri: https://search-users.example.com/search?query=d
+  response:
+    status: 404
+    headers:
+      Connection: keep-alive
+      Content-Length: '0'
+      Content-Type: application/json
+      Date: Sat, 04 May 2019 04:18:40 GMT
+      Server: gunicorn/19.9.0
+    body:

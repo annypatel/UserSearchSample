@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Styles for search list item for API 28 and above -->
+    <style name="Base.Widget.SearchItem.UserName" parent="">
+        <item name="android:lineHeight">@dimen/search_item_line_height</item>
+    </style>
+
+    <style name="Base.Widget.SearchItem.DisplayName" parent="">
+        <item name="android:lineHeight">@dimen/search_item_line_height</item>
+    </style>
+
+</resources>

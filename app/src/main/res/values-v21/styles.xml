@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base style for toolbar on API 21 and above -->
+    <style name="Base.Widget.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:elevation">@dimen/toolbar_elevation</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#FFFFFF</color>
+    <color name="primary_dark_color">#999999</color>
+    <color name="accent_color">#999999</color>
+    <color name="widow_background">#FFFFFF</color>
+
+    <!-- search colors -->
+    <color name="search_query_background">#F2F2F2</color>
+    <color name="search_item_divider_color">#DDDDDD</color>
+    <color name="search_item_display_name_color">#1D1C1D</color>
+    <color name="search_item_username_color">#616061</color>
+    <color name="offline_banner_background">#999999</color>
+    <color name="offline_banner_text_color">#FFFFFF</color>
+</resources>
