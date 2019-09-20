@@ -13,11 +13,11 @@ buildscript {
 
     // Dependency versions
     ext.versions = [
-        agp         : '3.3.0',
+        agp         : '3.5.0',
         spotless    : '3.20.0',
         ktlint      : '0.31.0',
         gvp         : '0.20.0',
-        kotlin      : '1.3.21',
+        kotlin      : '1.3.50',
         appcompat   : '1.0.2',
         fragment    : '1.1.0-alpha05',
         lifecycle   : '2.0.0',
@@ -39,7 +39,7 @@ buildscript {
         testCore    : '1.1.0',
         espresso    : '3.1.1',
         rxidler     : '0.9.1',
-        okreplay    : '1.4.0'
+        okreplay    : '1.5.0'
     ]
 
     // Dependencies
